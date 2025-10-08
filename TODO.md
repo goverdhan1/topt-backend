@@ -1,0 +1,3 @@
+- [x] Add import for ObjectId in auth.js
+- [x] Replace all inline ObjectId requires with the imported ObjectId
+- [x] Test the fix by running a relevant test script
