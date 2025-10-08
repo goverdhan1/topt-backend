@@ -12,7 +12,10 @@ class Database {
 
     async connect() {
         try {
-            this.client = new MongoClient(this.uri);
+            this.client = new MongoClient(this.uri, {
+                tls: true,
+                serverSelectionTimeoutMS: 5000
+            });
             await this.client.connect();
             this.db = this.client.db(this.dbName);
             console.log('Connected to MongoDB database');

@@ -1,3 +1,3 @@
-- [x] Add import for ObjectId in auth.js
-- [x] Replace all inline ObjectId requires with the imported ObjectId
-- [x] Test the fix by running a relevant test script
+- [x] Update config/database.js to add TLS options to MongoClient for SSL fix
+- [x] Update check_connection.js to add TLS options for consistency
+- [x] Test the database connection using test scripts
