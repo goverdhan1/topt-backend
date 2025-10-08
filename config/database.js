@@ -5,8 +5,8 @@ class Database {
     constructor() {
         this.client = null;
         this.db = null;
-        this.uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/callcenter';
-        this.dbName = process.env.MONGODB_DB || 'callcenter';
+        this.uri = process.env.MONGODB_URI;
+        this.dbName = process.env.MONGODB_DB;
         console.log('Using MongoDB database:', this.uri, this.dbName);
     }
 
