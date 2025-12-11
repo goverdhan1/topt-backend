@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const BASE_URL = 'https://topt-back-47b6d49bc89e.herokuapp.com';
+const BASE_URL = 'https://topt-backend.onrender.com';
 
 async function addUserToDeployed() {
     try {

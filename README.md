@@ -264,7 +264,7 @@ This project is configured for separate backend and frontend deployment:
 NODE_ENV=production
 JWT_SECRET=your_production_jwt_secret
 DATABASE_URL=your_production_database_url
-CORS_ORIGIN=your_frontend_domain
+CORS_ORIGIN=https://topt-frontend.vercel.app/
 ```
 
 ## 🐛 **Troubleshooting**

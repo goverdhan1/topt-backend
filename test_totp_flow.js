@@ -1,7 +1,7 @@
 const axios = require('axios');
 const readline = require('readline');
 
-const BASE_URL = 'https://topt-back-47b6d49bc89e.herokuapp.com';
+const BASE_URL = 'https://topt-backend.onrender.com';
 
 async function testTotpFlow() {
   try {

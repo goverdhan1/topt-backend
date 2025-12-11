@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { authenticator } = require('otplib');
 
-const BASE_URL = 'https://topt-back-47b6d49bc89e.herokuapp.com';
+const BASE_URL = 'https://topt-backend.onrender.com';
 
 async function testFullUserFlow() {
     console.log('🔍 Testing full user flow: request-otp -> verify-otp -> get documents');
